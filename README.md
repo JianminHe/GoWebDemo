@@ -26,6 +26,6 @@ http://127.0.0.1:8080/getRediskey/demoKey
 返回redis中键为demokey的值
 
 3. 获取redis值
-GET方式 getS/key=xxx 请求格式
-http://127.0.0.1/get?key=wang, 返回redis中的key = wang的值
+GET方式 getS?key=xxx 请求格式
+http://127.0.0.1:8080/get?key=wang, 返回redis中的key = wang的值
 
