@@ -87,7 +87,7 @@ func setRedisKey(w http.ResponseWriter, r *http.Request , p httprouter.Params) {
 }
 
 //  /getS/key=xxx 请求格式
-// 例如  访问http://127.0.0.1/getS/key=wang, 返回redis中的key = wang的值
+// 例如  访问http://127.0.0.1/get?key=wang, 返回redis中的key = wang的值
 func getS(w http.ResponseWriter, r *http.Request, p httprouter.Params) {
 
 	queryForm, err := url.ParseQuery(r.URL.RawQuery)
