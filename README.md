@@ -5,7 +5,9 @@ Go Wes示例代码
 Redis连接使用了连接池方式。主要用于演示怎么在redis中添加、查询键值
 
 本程序需要下载2个额外的go包， 执行以下命令
+
 go get github.com/garyburd/redigo/redis   
+
 go get github.com/julienschmidt/httprouter
 
 本程序需要在本机安装Redis服务器，端口号6379，密码123456
